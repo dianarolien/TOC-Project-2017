@@ -20,9 +20,14 @@ A telegram bot based on a finite state machine
 3. 查詢相關網站
 
 #### How to use
-
-
-
+ 進入聊天室, 隨便輸入一行字: 機器人會回覆使用方法(主選單)<br/>
+   * 選取 novel , then 選取 biqukan<br/>
+   * 選取 write , 可以選擇 writing or reading
+           * writing: 輸入的文字將會編輯成小說, 串接在原本的文章後
+           * reading: 可以查看已有的故事內容
+   * 選取 home , 回到主選單 (任何一個state都可以使用)
+   * 選取 back , 回到上一個state (任何一個state都可以使用)
+   
 ## Finite State Machine
 ![fsm](./machine_state.png)
 
