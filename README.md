@@ -9,10 +9,10 @@ A telegram bot based on a finite state machine
  1. Open server ./ngrok http 5000<br/>
  2. python3 app.py
 
-### my telegram-bot
+## my telegram-bot
 * ID = @PiggyDD_bot
 
-#### introdction
+### introdction
 以小說為主題，與其他使用者互動的bot<br/>
 主要功能:<br/>
 1. 下載小說<br/>
