@@ -22,32 +22,12 @@ A telegram bot based on a finite state machine
 #### How to use
 
 
-### Run Locally
-You can either setup https server or using `ngrok` as a proxy.
-
-**`ngrok` would be used in the following instruction**
-
-```sh
-ngrok http 5000
-```
-
-After that, `ngrok` would generate a https URL.
-
-You should set `WEBHOOK_URL` (in app.py) to `your-https-URL/hook`.
-
 
 ## Finite State Machine
 ![fsm](./machine_state.png)
 
-## Usage
-The initial state is set to `user`.
-
-Every time `user` state is triggered to `advance` to another state, it will `go_back` to `user` state after the bot replies corresponding message.
-
-* user
-	* Input: "go to state1"
-		* Reply: "I'm entering state1"
-
-	* Input: "go to state2"
-		* Reply: "I'm entering state2"
-
+### Extra
+* 傳送 .gif 檔及.zip 檔
+* 使用網路爬蟲閱覽文字並儲存成.txt檔
+* 使用zipfile打包文字檔案
+* 使用firebase-admin 讓使用者共編文字
