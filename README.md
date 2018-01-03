@@ -12,19 +12,15 @@ A telegram bot based on a finite state machine
 ## my telegram-bot
 * ID = @PiggyDD_bot
 
-### introdction
+#### introdction
 以小說為主題，與其他使用者互動的bot<br/>
 主要功能:<br/>
 1. 下載小說<br/>
 2. 與其他使用者共同編輯一本小說<br/>
 3. 查詢相關網站
 
+#### How to use
 
-
-### Secret Data
-
-`API_TOKEN` and `WEBHOOK_URL` in app.py **MUST** be set to proper values.
-Otherwise, you might not be able to run your code.
 
 ### Run Locally
 You can either setup https server or using `ngrok` as a proxy.
@@ -39,11 +35,6 @@ After that, `ngrok` would generate a https URL.
 
 You should set `WEBHOOK_URL` (in app.py) to `your-https-URL/hook`.
 
-#### Run the sever
-
-```sh
-python3 app.py
-```
 
 ## Finite State Machine
 ![fsm](./img/show-fsm.png)
