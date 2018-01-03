@@ -4,12 +4,15 @@ Template Code for TOC Project 2017
 
 A telegram bot based on a finite state machine
 
-## Setup
+## Run my telegram-bot
+
+1.Open server ./ngrok http 5000
+2.python3 app.py
 
 ### Prerequisite
 * Python 3
 
-#### Install Dependency
+#### 
 ```sh
 pip install -r requirements.txt
 ```
