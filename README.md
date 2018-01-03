@@ -4,21 +4,22 @@ Template Code for TOC Project 2017
 
 A telegram bot based on a finite state machine
 
-## Run my telegram-bot
+## Run my python3 code
 
  1. Open server ./ngrok http 5000<br/>
  2. python3 app.py
 
-### Prerequisite
-* Python 3
+### my telegram-bot
+* ID = @PiggyDD_bot
 
-#### 
-```sh
-pip install -r requirements.txt
-```
+#### introdction
+以小說為主題，與其他使用者互動的bot<br/>
+主要功能:<br/>
+1. 下載小說<br/>
+2. 與其他使用者共同編輯一本小說<br/>
+3. 查詢相關網站
 
-* pygraphviz (For visualizing Finite State Machine)
-    * [Setup pygraphviz on Ubuntu](http://www.jianshu.com/p/a3da7ecc5303)
+
 
 ### Secret Data
 
