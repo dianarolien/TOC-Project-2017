@@ -6,8 +6,8 @@ A telegram bot based on a finite state machine
 
 ## Run my telegram-bot
 
-1.Open server ./ngrok http 5000<br/>
-2.python3 app.py
+ 1. Open server ./ngrok http 5000<br/>
+ 2. python3 app.py
 
 ### Prerequisite
 * Python 3
