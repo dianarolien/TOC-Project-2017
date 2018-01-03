@@ -20,9 +20,10 @@ A telegram bot based on a finite state machine
 3. 查詢相關網站
 
 #### How to use
- 進入聊天室, 隨便輸入一行字: 機器人會回覆使用方法(主選單)<br/>
- * 選取 novel , then 選取 biqukan<br/>
+ 進入聊天室, 隨便輸入一行字: Bot 會回覆使用方法(主選單)<br/>
+ * 選取 novel , 再選取 biqukan, 輸入想要下載的小說網址貼上去之後開始進行下載. Bot 會把下載好的小說打包成.zip檔傳送給使用者<br/>
  * 選取 write , 可以選擇 writing or reading<br/>
+ * 選取 web , 可以查詢小說相關網站
  * 選取 home , 回到主選單 (任何一個state都可以使用)<br/>
  * 選取 back , 回到上一個state (任何一個state都可以使用)<br/>
  * writing: 輸入的文字將會編輯成小說, 串接在原本的文章後<br/>
