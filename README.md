@@ -37,7 +37,7 @@ You should set `WEBHOOK_URL` (in app.py) to `your-https-URL/hook`.
 
 
 ## Finite State Machine
-![fsm](./img/show-fsm.png)
+![fsm](./machine_state.png)
 
 ## Usage
 The initial state is set to `user`.
